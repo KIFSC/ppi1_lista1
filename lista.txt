@@ -1,0 +1,18 @@
+Crie a página inicial do seu pequeno site HTML.
+Ela deve conter:
+título da página no navegador usando <title>;
+um título principal usando <h1>;
+um texto de apresentação explicando o objetivo do site;
+uma explicação curta, com no máximo 5 linhas, diferenciando Internet e Web;
+um menu de navegação com links para todas as páginas:
+História da Web;
+HTTP;
+Estados;
+Currículo;
+Contato.
+uma lista ordenada explicando a sequência sugerida de leitura das páginas;
+uma lista não ordenada com os principais conteúdos estudados até agora;
+um comentário HTML com:
+nome do autor;
+turma;
+data de criação.
