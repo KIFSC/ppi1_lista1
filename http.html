@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    a{
+        padding: 5px;
+    }
+    
+</style>
 <body>
     <div>
       <h1> HTTP e seus códigos </h1> 
       <ol>
         <a href="index.html">Voltar</a>
         <a href="historia_web.html">História da Web</a>
-        <a href="">Estados</a>
-        <a href="">Currículo</a>
-        <a href="">Contato</a>
+        <a href="curriculo.html">Currículo</a>
+        <a href="contato.html">Contato</a>
       </ol>   
     </div>
     <div>
@@ -64,8 +69,60 @@
                     <p>Usado quando o cliente deseja enviar algum recurso para serem processados no servidor</p>
                 </div>
             </li>
-            <li></li>
-            <li></li>
+            <li>
+                <h4>Exemplo HTTPS</h4>
+                <h5>Requisição</h5>
+                <p>
+                    GET / HTTP/1.1
+Host: www.meusite.com.br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+                </p>
+                <h5>Respota da Requisição</h5>
+                <pre>
+                    <code>
+&lt !DOCTYPE html &gt
+&lt html lang="pt-BR" &gt
+ &lt head &gt
+    &lt meta charset="UTF-8" &gt
+    &lt title &gt Bem-vindo ao MeuSite &lt /title &gt
+&lt/head&gt
+&ltbody&gt
+    &lth1&gtPágina inicial carregada com sucesso!&lt/h1&gt
+&lt/body&gt
+&lt/html&gt
+</code>
+</pre>
+            </li>
+            <li>
+                <H4> Código de status</H4>
+                <ol>
+                    <li>
+                        <h5>Status 200</h5>
+                        <p>Indica que a solicitação foi recebida pelo servidor , ou seja , que a mesma teve sucesso em se comunicar com o servidor</p>
+                    </li>
+                    <li>
+                        <h5>Status 301</h5>
+                        <p>Indica que uma página acabou sendo movida para outro endereço http</p>
+                    </li>
+                    <li>
+                        <h5>Status 400</h5>
+                        <p>indica que a solicitação possui algum erro e por isso não teve sucesso ao tentar se comunicar com o servidor </p>
+                    </li>
+                    <li>
+                        <h5>Status 404</h5>
+                        <p>Indica que a página acabou não sendo encontrada por meio do endereço solicitado pelo cliente</p>
+                    </li>
+                    <li>
+                        <h5>Status 500</h5>
+                        <p>Indica um erro que veio do próprio servidor</p>
+                    </li>
+                </ol>
+                
+            </li>
          </ol>
     </div>
 </body>
